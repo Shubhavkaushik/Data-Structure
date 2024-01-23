@@ -28,7 +28,7 @@ node* createTree(node *root){
         root->right=createTree(root->right);
 
     
-    
+    return root;
 }
 
 
